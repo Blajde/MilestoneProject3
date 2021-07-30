@@ -17,16 +17,16 @@
     <header>
 
     <nav>
-        <h3 class="headline"><strong>Easy Manager</strong></h3>
+        <h3 class="headline col-12 "><strong>Easy Manager</strong></h3>
         
 
     </nav>
-    
+
     </header>
     <!--------ProjectInfo--------->
 
     <section>
-        <div class="container projectInfo" class="col 12">
+        <div class="container projectInfo row align-items-start col-12">
             <form>
                 <div class="naming d-flex justify-content-around">
                     <input type="text" class="projectName" placeholder="Project name">
@@ -34,13 +34,15 @@
                     <input type="date" class="startDate">
                     <input type="date" class="endDate">
                 </div>
-                <textarea class="projectDescribe col-12 flex-direction: column" placeholder="Project description"></textarea>
+                <div class="row">
+                    <textarea class="projectDescribe col-12" placeholder="Project description"></textarea>
+                </div>
             </form>
         </div>
     </section>
 <!--------ProjectContent--------->
     <section>
-        <div class="container pageOne">
+        <div class="container pageOne row align-items-start col-12">
             <div class="pageBox">
                 <div class="taskInput">
                     <input type="text" class="stepOne-input">
