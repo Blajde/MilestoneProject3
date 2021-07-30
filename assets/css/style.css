@@ -1,0 +1,33 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: 'Roboto Condensed', 'sans-serif';
+    height: 100%;
+    width: 100%;
+    margin: 0px; 
+      
+}
+
+.naming {
+    
+}
+
+.pageBox{
+    width: 500px;
+    height: 500px;
+    border: 1px solid black;
+    position: relative;
+}
+
+.taskInput {
+    position: absolute;
+    left: 10px;
+    top: 10px;
+}
+
+
+
+

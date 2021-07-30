@@ -15,7 +15,7 @@
 </head>
 <body>
     <nav>
-        <h3 class="headline">Easy Manager</h3>
+        <h3 class="headline"><strong>Easy Manager</strong></h3>
         
 
     </nav>
@@ -23,7 +23,7 @@
     <!--------ProjectInfo--------->
 
     <section>
-        <div class="projectInfo">
+        <div class="container projectInfo">
             <form>
                 <div class="naming">
                     <input type="text" class="projectName" placeholder="Project name">
@@ -34,32 +34,38 @@
                 <textarea class="projectDescribe" placeholder="Project description"></textarea>
             </form>
         </div>
-
+    </section>
 <!--------ProjectContent--------->
-
-        <div class="pageOne">
-            <div class="taskInput">
-                <input type="text" class="stepOne-input">
-                <button class="doneTask" type="submit">
-                    <i class="fas fa-check"></i>
-                </button>
-                
-                <button class="deleteTask" type="">
-                    <i class="fas fa-minus"></i>
-                </button>
+    <section>
+        <div class="container pageOne">
+            <div class="pageBox">
+                <div class="taskInput">
+                    <input type="text" class="stepOne-input">
+                    <button class="doneTask" type="submit">
+                        <i class="fas fa-check"></i>
+                    </button>
+                    
+                    <button class="deleteTask" type="">
+                        <i class="fas fa-minus"></i>
+                    </button>
+                </div>
             </div>
         </div>
 
     </section>
 
+
+
     <footer>
         <div class="socialMedia">
-            <ul>
+            <div class="col-12">
+            <ul class="d-flex flex-row-reverse bd-highlight">
                 <li>Email</li>
                 <li>Instagram</li>
                 <li>Facebook</li>
                 <li>LinkedIn</li>
             </ul>
+            </div>
         </div>
     </footer>
 
