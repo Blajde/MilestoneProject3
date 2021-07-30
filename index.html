@@ -14,24 +14,27 @@
     <link rel="stylesheet" href="assets/css/style.css" type="text/css">
 </head>
 <body>
+    <header>
+
     <nav>
         <h3 class="headline"><strong>Easy Manager</strong></h3>
         
 
     </nav>
-
+    
+    </header>
     <!--------ProjectInfo--------->
 
     <section>
-        <div class="container projectInfo">
+        <div class="container projectInfo" class="col 12">
             <form>
-                <div class="naming">
+                <div class="naming d-flex justify-content-around">
                     <input type="text" class="projectName" placeholder="Project name">
                     <input type="text" class="projectManager" placeholder="Project manager">
                     <input type="date" class="startDate">
                     <input type="date" class="endDate">
                 </div>
-                <textarea class="projectDescribe" placeholder="Project description"></textarea>
+                <textarea class="projectDescribe col-12 flex-direction: column" placeholder="Project description"></textarea>
             </form>
         </div>
     </section>
